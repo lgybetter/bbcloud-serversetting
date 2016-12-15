@@ -1,0 +1,26 @@
+{
+  "name": "bbcloud-serversetting",
+  "version": "1.0.0",
+  "description": "The script that equiping the server with mongodb + nvm + node + nginx + pm2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "initNvm": "./initNvm.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lgybetter/bbcloud-serversetting.git"
+  },
+  "keywords": [
+    "one",
+    "step",
+    "equiping",
+    "server"
+  ],
+  "author": "lgybetter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgybetter/bbcloud-serversetting/issues"
+  },
+  "homepage": "https://github.com/lgybetter/bbcloud-serversetting#readme"
+}
