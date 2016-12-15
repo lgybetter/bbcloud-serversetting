@@ -1,8 +1,6 @@
 #fetch nvm to control node version
 echo "fetch nvm intsall bash"
-wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-cd ~
-echo "source ~/.bashrc"
-.bashrc
-nvm install stable
-nvm use node
+git clone git@github.com:creationix/nvm.git ~/.nvm
+cd ~/.nvm
+git checkout `git describe --abbrev=0 --tags`
+./install.sh
